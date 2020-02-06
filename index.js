@@ -1,4 +1,5 @@
 // Code your solution here
 function findMatching(arr,name){
-  return arr.filter((el)=> {return el.toLowerCase() === name.toLowerCase()+"*"});
+  const rule1=  name.toLowerCase()+"*";
+  return arr.filter((el)=> {return el.toLowerCase() === rule1});
 }
